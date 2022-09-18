@@ -46,12 +46,12 @@ Latona および AION の SAP 関連リソースでは、Inputs フォルダ下�
 * sample.jsonの記載例(1)  
 
 accepter において 下記の例のように、データの種別（＝APIの種別）を指定します。  
-ここでは、"CostCenter" が指定されています。    
+ここでは、"Header" が指定されています。    
   
 ```
-	"api_schema": "sap.s4.beh.costcenter.v1.CostCenter.ValdtyPerdCreated.v1",
+	"api_schema": "SAPCostCenterReads",
 	"accepter": ["Header"],
-	"cost_center_code": "10101101",
+	"cost_center_code": "100000",
 	"deleted": false
 ```
   
@@ -60,9 +60,9 @@ accepter において 下記の例のように、データの種別（＝APIの�
 全データを取得する場合、sample.json は以下のように記載します。  
 
 ```
-	"api_schema": "sap.s4.beh.costcenter.v1.CostCenter.ValdtyPerdCreated.v1",
+	"api_schema": "SAPCostCenterReads",
 	"accepter": ["All"],
-	"cost_center_code": "10101101",
+	"cost_center_code": "100000",
 	"deleted": false
 ```
 
