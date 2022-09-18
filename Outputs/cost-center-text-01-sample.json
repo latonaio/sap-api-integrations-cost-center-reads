@@ -1,0 +1,17 @@
+{
+	"cursor": "/Users/latona2/bitbucket/sap-api-integrations-cost-center-reads/SAP_API_Caller/caller.go#L109",
+	"function": "sap-api-integrations-cost-center-reads/SAP_API_Caller.(*SAPAPICaller).CostCenterName",
+	"level": "INFO",
+	"message": [
+		{
+			"CostCenter": "100000",
+			"ControllingArea": "0001",
+			"Language": "JA",
+			"ValidityEndDate": "9999-12-31",
+			"ValidityStartDate": "1998-01-01",
+			"CostCenterName": "Test Cost Center",
+			"CostCenterDescription": "Test Cost Center"
+		}
+	],
+	"time": "2022-09-18T09:39:30+09:00"
+}

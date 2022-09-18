@@ -1,0 +1,38 @@
+{
+	"cursor": "/Users/latona2/bitbucket/sap-api-integrations-cost-center-reads/SAP_API_Caller/caller.go#L60",
+	"function": "sap-api-integrations-cost-center-reads/SAP_API_Caller.(*SAPAPICaller).Header",
+	"level": "INFO",
+	"message": [
+		{
+			"ControllingArea": "0001",
+			"CostCenter": "100000",
+			"ValidityEndDate": "9999-12-31",
+			"ValidityStartDate": "1998-01-01",
+			"CompanyCode": "0001",
+			"BusinessArea": "",
+			"CostCtrResponsiblePersonName": "Test",
+			"CostCtrResponsibleUser": "",
+			"CostCenterCurrency": "EUR",
+			"ProfitCenter": "100000",
+			"Department": "",
+			"FunctionalArea": "",
+			"Country": "",
+			"Region": "",
+			"CityName": "",
+			"CostCenterStandardHierArea": "0001",
+			"CostCenterCategory": "E",
+			"IsBlkdForPrimaryCostsPosting": "",
+			"IsBlkdForSecondaryCostsPosting": "",
+			"IsBlockedForRevenuePosting": "X",
+			"IsBlockedForCommitmentPosting": "X",
+			"IsBlockedForPlanPrimaryCosts": "",
+			"IsBlockedForPlanSecondaryCosts": "",
+			"IsBlockedForPlanRevenues": "X",
+			"ConsumptionQtyIsRecorded": "",
+			"Language": "",
+			"CostCenterCreationDate": "2022-09-16",
+			"to_Text": "http://100.21.57.120:8080/sap/opu/odata/sap/API_COSTCENTER_SRV/A_CostCenter(ControllingArea='0001',CostCenter='100000',ValidityEndDate=datetime'9999-12-31T00%3A00%3A00')/to_Text"
+		}
+	],
+	"time": "2022-09-18T09:33:26+09:00"
+}
